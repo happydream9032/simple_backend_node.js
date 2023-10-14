@@ -324,7 +324,7 @@ async function deleteUserData(req, res) {
       console.error(error);
       return res.status(403).json({
         status: 403,
-        message: "There is no user with this email",
+        message: "Not find same users with this email",
       });
     }
   } catch (err) { 
