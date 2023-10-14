@@ -1,5 +1,5 @@
 const express = require("express");
-const { signup, login, getUserData, googlelogin, newPassword, forgetpassword, confirmation, deleteUserData } = require("../controller/AppController");
+const { signup, login, getUserData, googlelogin, newPassword, forgetpassword, confirmation, deleteUserData } = require("../controller/UserController");
 const AuthUser = require("../middleware/AuthUser");
 
 // CREATING EXPRESS ROUTE HANDLER
